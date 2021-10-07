@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Spam Click Battle</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+
+	<h1 class="title">Spam Click Battle</h1>
+	<div class="game-desc">
+		<p>Instructions: Get a friend to play with you and the player with the most clicks WINS.</p>
+		<p>CONTROLS: Player 1 controls the Z key. Player 2 controls the M key. Pressing R or the RESET button resets the game.</p>
+	</div>
+	<div class="set-score">
+		<input id="number" type="number" value="5">
+		<button class="reset-button" id="reset">RESET</button>
+	</div>
+	<div class="score-wrapper">
+		<div class="score">
+			<h1 class="score-number" id="PlayerOne">0</h1>
+			<button>Player 1</button>
+		</div>
+		<div class="goal-score">
+			<p>Playing To: <span>5</span></p>
+		</div>
+		<div class="score">
+			<h1 class="score-number" id="PlayerTwo">0</h1>
+			<button>Player 2</button>
+		</div>
+	</div>
+
+	<!-- <h1><span class="score" id="PlayerOne">0</span> vs. <span class="score" id="PlayerTwo">0</span></h1> -->
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
